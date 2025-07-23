@@ -16,4 +16,5 @@ jobs:
       - name: Deploy the app
         uses: digitalocean/app_action/deploy@v2
         with:
+          app_spec_location: .do/express-test.yaml
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
