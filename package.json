@@ -14,9 +14,7 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "exrpess": "^0.0.1-security",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.16.4",
-    "moongose": "^1.0.0"
+    "@supabase/supabase-js": "^2.39.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
