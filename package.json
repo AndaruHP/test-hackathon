@@ -1,0 +1,24 @@
+{
+  "name": "test-hackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "exrpess": "^0.0.1-security",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4",
+    "moongose": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
