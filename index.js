@@ -16,6 +16,8 @@ app.get("/", (req, res) => {
   res.send("Hello from Node API Server Updated");
 });
 
+const PORT = process.env.PORT || 3000;
+
 // Test Supabase connection
 const testConnection = async () => {
   try {
@@ -27,8 +29,8 @@ const testConnection = async () => {
       console.log("Supabase connection failed:", error.message);
     } else {
       console.log("Connected to Supabase database!");
-      app.listen(3000, () => {
-        console.log("Server is running on port 3000");
+      app.listen(PORT, () => {
+        console.log(`Server is running on port ${PORT}`);
       });
     }
   } catch (error) {
